@@ -15,6 +15,14 @@
 		83652375284EF6400094169E /* RequestLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83652374284EF6400094169E /* RequestLocationView.swift */; };
 		83652377284EF6480094169E /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83652376284EF6480094169E /* ErrorView.swift */; };
 		83652379284EF6540094169E /* TrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83652378284EF6540094169E /* TrackingView.swift */; };
+		83A1D7412877A3C000A90014 /* EventStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A1D7402877A3C000A90014 /* EventStore.swift */; };
+		83A1D7432877A46100A90014 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A1D7422877A46100A90014 /* Event.swift */; };
+		83A1D7462877A78F00A90014 /* EventRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A1D7452877A78F00A90014 /* EventRecord.swift */; };
+		83DD62F9287A25AA004A0795 /* RecordIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DD62F8287A25AA004A0795 /* RecordIconView.swift */; };
+		83DD62FB287A34BA004A0795 /* RecordedEventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DD62FA287A34BA004A0795 /* RecordedEventListView.swift */; };
+		83DD62FD287A358F004A0795 /* RecordedEventViewIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DD62FC287A358F004A0795 /* RecordedEventViewIcon.swift */; };
+		83DD62FF287A48F7004A0795 /* SpecificEventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DD62FE287A48F7004A0795 /* SpecificEventDetailsView.swift */; };
+		83DD6301287A4D29004A0795 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DD6300287A4D29004A0795 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +35,14 @@
 		83652374284EF6400094169E /* RequestLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestLocationView.swift; sourceTree = "<group>"; };
 		83652376284EF6480094169E /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		83652378284EF6540094169E /* TrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingView.swift; sourceTree = "<group>"; };
+		83A1D7402877A3C000A90014 /* EventStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventStore.swift; sourceTree = "<group>"; };
+		83A1D7422877A46100A90014 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		83A1D7452877A78F00A90014 /* EventRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRecord.swift; sourceTree = "<group>"; };
+		83DD62F8287A25AA004A0795 /* RecordIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordIconView.swift; sourceTree = "<group>"; };
+		83DD62FA287A34BA004A0795 /* RecordedEventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordedEventListView.swift; sourceTree = "<group>"; };
+		83DD62FC287A358F004A0795 /* RecordedEventViewIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordedEventViewIcon.swift; sourceTree = "<group>"; };
+		83DD62FE287A48F7004A0795 /* SpecificEventDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificEventDetailsView.swift; sourceTree = "<group>"; };
+		83DD6300287A4D29004A0795 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +75,17 @@
 		8365235D284EF4260094169E /* LocationManagerExample */ = {
 			isa = PBXGroup;
 			children = (
+				83DD62FA287A34BA004A0795 /* RecordedEventListView.swift */,
+				83DD62FE287A48F7004A0795 /* SpecificEventDetailsView.swift */,
 				8365235E284EF4260094169E /* LocationManagerExampleApp.swift */,
 				83652360284EF4260094169E /* ContentView.swift */,
 				83652374284EF6400094169E /* RequestLocationView.swift */,
 				83652378284EF6540094169E /* TrackingView.swift */,
+				83DD62FC287A358F004A0795 /* RecordedEventViewIcon.swift */,
+				83DD62F8287A25AA004A0795 /* RecordIconView.swift */,
 				83652376284EF6480094169E /* ErrorView.swift */,
 				83652372284EF5990094169E /* LocationViewModel.swift */,
+				83A1D7442877A46500A90014 /* New Group */,
 				83652362284EF42A0094169E /* Assets.xcassets */,
 				83652364284EF42A0094169E /* Preview Content */,
 			);
@@ -77,6 +98,17 @@
 				83652365284EF42A0094169E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		83A1D7442877A46500A90014 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				83A1D7402877A3C000A90014 /* EventStore.swift */,
+				83A1D7422877A46100A90014 /* Event.swift */,
+				83A1D7452877A78F00A90014 /* EventRecord.swift */,
+				83DD6300287A4D29004A0795 /* MapView.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +181,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83A1D7462877A78F00A90014 /* EventRecord.swift in Sources */,
+				83DD62FF287A48F7004A0795 /* SpecificEventDetailsView.swift in Sources */,
+				83A1D7432877A46100A90014 /* Event.swift in Sources */,
+				83DD62F9287A25AA004A0795 /* RecordIconView.swift in Sources */,
 				83652377284EF6480094169E /* ErrorView.swift in Sources */,
 				83652379284EF6540094169E /* TrackingView.swift in Sources */,
 				83652361284EF4260094169E /* ContentView.swift in Sources */,
+				83DD6301287A4D29004A0795 /* MapView.swift in Sources */,
+				83DD62FB287A34BA004A0795 /* RecordedEventListView.swift in Sources */,
+				83A1D7412877A3C000A90014 /* EventStore.swift in Sources */,
+				83DD62FD287A358F004A0795 /* RecordedEventViewIcon.swift in Sources */,
 				83652375284EF6400094169E /* RequestLocationView.swift in Sources */,
 				8365235F284EF4260094169E /* LocationManagerExampleApp.swift in Sources */,
 				83652373284EF5990094169E /* LocationViewModel.swift in Sources */,
