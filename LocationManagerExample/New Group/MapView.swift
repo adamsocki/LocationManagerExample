@@ -36,7 +36,6 @@ struct MapView: View {
                 setRegion(latitude: latitude, longitude: longitude)
             }
         
-        
     }
     
     private func setRegion(latitude: Double, longitude: Double) {
