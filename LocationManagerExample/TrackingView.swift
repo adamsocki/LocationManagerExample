@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 import MapKit
 
-
+ 
 struct TrackingView: View {
     @EnvironmentObject var locationViewModel: LocationViewModel
     //@Binding var event: Event
